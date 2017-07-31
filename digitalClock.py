@@ -1,6 +1,10 @@
 from time import sleep
 from os import system
 from datetime import datetime
+import time
+import threading
+
+
 
 def clear():
 	system("cls")
@@ -143,6 +147,13 @@ print(r3['7'],r3['2'])
 print(r4['7'],r4['2'])
 print(r5['7'],r5['2'])
 
+def terminator():
+	for e in event.get():
+		if e.type == KEYDOWN:
+			if (e.key == K_a):
+				print("A was pressed")
+
+
 def clock():
 	while 1:
 		try:
@@ -167,9 +178,12 @@ def clock():
 			print()
 			print("                          ",ctime.month,"/",ctime.day,"/",ctime.year)
 			print("------------------------------------------------------------------")
+			print("CTRL + C to exit")
 			sleep(0.5)
 		except KeyboardInterrupt:
-			clear()
-			break;
+			sleep(0.1)
+			break;	
+
+
 
 clock()
