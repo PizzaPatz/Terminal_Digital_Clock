@@ -1,0 +1,3 @@
+[console_scripts]
+clock = Terminal_Digital_Clock.digitalClock:main
+
