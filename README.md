@@ -2,6 +2,11 @@
 
 ![clock](https://github.com/PizzaPat/Terminal_Digital_Clock/blob/master/screenshots/clock.png)
 
+[![PyPI](https://img.shields.io/pypi/v/nine.svg)](https://pypi.python.org/pypi/Terminal-Digital-Clock)
+[![PyPI](https://img.shields.io/pypi/dm/Django.svg)](https://pypi.python.org/pypi/Terminal-Digital-Clock)
+[![Github All Releases](https://img.shields.io/github/downloads/PizzaPat/Terminal_Digital_Clock/total.svg)](https://github.com/PizzaPat/Terminal_Digital_clock)
+[![license](https://img.shields.io/github/license/mashape/apistatus.svg)]()
+
 ## Requirements:
 [Python 3.6](https://www.python.org/downloads/release/python-361/)
 
