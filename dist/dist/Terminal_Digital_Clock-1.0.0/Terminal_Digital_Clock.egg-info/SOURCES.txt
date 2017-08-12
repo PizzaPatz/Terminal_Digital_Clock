@@ -1,9 +1,0 @@
-setup.cfg
-setup.py
-Terminal_Digital_Clock/__init__.py
-Terminal_Digital_Clock/digitalClock.py
-Terminal_Digital_Clock.egg-info/PKG-INFO
-Terminal_Digital_Clock.egg-info/SOURCES.txt
-Terminal_Digital_Clock.egg-info/dependency_links.txt
-Terminal_Digital_Clock.egg-info/entry_points.txt
-Terminal_Digital_Clock.egg-info/top_level.txt
